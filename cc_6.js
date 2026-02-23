@@ -14,3 +14,10 @@ class Manager extends Employee {
     }
     describe() {
         return `${super.describe()} They manage a team of ${this.teamSize} people.`;
+    }
+}
+const employee1 = new Employee('Kayla Michelle', 'Production');
+const employee2 = new Employee('Bob Lee', 'Sales');
+const employee3 = new Employee ('Alice Smith', 'Marketing');
+const manager1 = new Manager('Sarah Jones', 'IT', 5);
+const manager2 = new Manager('David Brown', 'HR', 3);
